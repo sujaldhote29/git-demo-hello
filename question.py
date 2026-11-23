@@ -68,6 +68,9 @@ elif op == "-":
 elif op == "*":
     print("The multiplication of two num is : ", a * b)
 elif op == "/":
-    print("The divison of two num is : ", a / b)
+    if a == 0 or b == 0:
+        print("Divison not possible")
+    else:
+        print("The divison of two num is : ", a / b)
 else:
     print("Invalid Operator")

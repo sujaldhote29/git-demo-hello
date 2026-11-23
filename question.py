@@ -45,17 +45,29 @@
 #     print("fail")
 
 
-signal = input("enter the character : ")
+# signal = input("enter the character : ")
 
-if signal=='r' or signal=='R':
-    print("Stop")
-elif signal=='y' or signal=='Y':
-    print("Wait")
-elif signal=='g' or signal=='G':
-    print("Go")
+# if signal=='r' or signal=='R':
+#     print("Stop")
+# elif signal=='y' or signal=='Y':
+#     print("Wait")
+# elif signal=='g' or signal=='G':
+#     print("Go")
+# else:
+#     print("Invalid color")
+
+
+a = int(input("enter the num1 :"))
+b = int(input("enter the num2 :"))
+op = input("enter the operator + or - or * or /: ")
+
+if op == "+":
+    print("The sum of two num is : ", a + b)
+elif op == "-":
+    print("The subtaction of two num is : ", a - b)
+elif op == "*":
+    print("The multiplication of two num is : ", a * b)
+elif op == "/":
+    print("The divison of two num is : ", a / b)
 else:
-    print("Invalid color")
-
-
-
-
+    print("Invalid Operator")
